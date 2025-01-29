@@ -9,9 +9,10 @@ console.log(`       Final amount after discount of 25%: $${finalAmount}`);
 
 //Task 2: For Loop
 let sales = [100, 200, 300, 400 ,500];
-let totalSales = 0; 
+let totalSales = 0;     //using for loop to calculate total sales
 for  (let i = 0; i < sales.length; i++) {
     totalSales += sales[i];
 }
-console.log(`Total Sales:, $${totalSales}`);
+console.log("Task 2")       // logging total sales
+console.log(`       Total Sales:, $${totalSales}`);
 
