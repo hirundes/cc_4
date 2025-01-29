@@ -32,4 +32,15 @@ do {
     responses++;
 } while (responses <= 3); // logged the customer survey responses starting at 0 ending at 3
 
+//Task 5: For...In Loop
+let employee = {
+    name:"Alice",
+    position: "Manager",
+    salary: 75000,
+};
+console.log("Task 5") //logged employee information
+for (let property in employee) {
+    console.log(`       ${property}: ${employee[property]}`);
+}
+
 
