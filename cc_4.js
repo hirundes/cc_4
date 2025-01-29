@@ -52,9 +52,24 @@ for (let product of products) {
 
 //Task 7: forEach() Method
 let orders = [23, 24, 25]
+console.log("Task 6")
 orders.forEach((order) => {
-    console.log(`Order Number: ${order}`);
+    console.log(`       Order Number: ${order}`);
 }); //logged each order number with forEach
+
+//Task 8: Function Declaration
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+let amount = 500
+let taxRate = 0.10
+let returnTax = calculateTax(amount, taxRate);
+console.log("Task 8")
+console.log(`       Tax Amount Returned: $${returnTax}`); // logged tax amount returned
+
+
+
+
 
 
 
