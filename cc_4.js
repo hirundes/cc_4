@@ -16,3 +16,12 @@ for  (let i = 0; i < sales.length; i++) {
 console.log("Task 2")       // logging total sales
 console.log(`       Total Sales:, $${totalSales}`);
 
+//Task 3: While Loop
+let stock = 10
+while (stock > -1) {
+    console.log(`Inventory Amount: ${stock}`);
+    stock--
+} //logged each inventory amount while it decreased.
+
+
+
