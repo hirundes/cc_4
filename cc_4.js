@@ -67,6 +67,17 @@ let returnTax = calculateTax(amount, taxRate);
 console.log("Task 8")
 console.log(`       Tax Amount Returned: $${returnTax}`); // logged tax amount returned
 
+//Task 9: Function Expressions
+let price = 200
+let applyDiscount = function discount(price) {
+    return price * 0.90;
+};
+let discountPrice = applyDiscount(price);
+console.log("Task 9")
+console.log(`       Price with 10% Discount Applied: $${discountPrice}`); //logged discounted price
+
+
+
 
 
 
