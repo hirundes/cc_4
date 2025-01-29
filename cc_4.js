@@ -76,6 +76,14 @@ let discountPrice = applyDiscount(price);
 console.log("Task 9")
 console.log(`       Price with 10% Discount Applied: $${discountPrice}`); //logged discounted price
 
+//Task 10: Arrow Functions
+let calculatePoints = (purchasePointAmount) => (purchasePointAmount / 10);
+
+let pointSales = 100;
+let points = calculatePoints(pointSales); 
+console.log("Task 10")
+console.log(`       Points Earned after Spending: ${points}`); 
+
 
 
 
