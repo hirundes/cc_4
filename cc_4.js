@@ -18,10 +18,18 @@ console.log(`       Total Sales:, $${totalSales}`);
 
 //Task 3: While Loop
 let stock = 10
+console.log("Task 3")
 while (stock > -1) {
-    console.log(`Inventory Amount: ${stock}`);
+    console.log(`       Inventory Amount: ${stock}`);
     stock--
 } //logged each inventory amount while it decreased.
 
+//Task 4: Do...While Loop
+let responses = 0
+console.log("Task 4")
+do {
+    console.log(`       Customer Survey Response Count: ${responses}`);
+    responses++;
+} while (responses <= 3); // logged the customer survey responses starting at 0 ending at 3
 
 
