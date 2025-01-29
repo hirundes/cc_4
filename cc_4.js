@@ -50,3 +50,12 @@ for (let product of products) {
     console.log(`       Display Product: ${product}`);
 } //logged each product name
 
+//Task 7: forEach() Method
+let orders = [23, 24, 25]
+orders.forEach((order) => {
+    console.log(`Order Number: ${order}`);
+}); //logged each order number with forEach
+
+
+
+
